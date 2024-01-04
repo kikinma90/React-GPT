@@ -60,7 +60,7 @@ export const OrthographyPage = () => {
           {
             // Recorremos el arreglo de mensajes
             // Si usamos map necesitamos un key, no habría que poner en índice, pero al no tener nada más es lo único que podemos poner en este caso
-            // Hbaría que poner un identificador único
+            // Habría que poner un identificador único
             messages.map( (message, index) => (
               message.isGpt
                 // Si el mensaje es de chatGPT

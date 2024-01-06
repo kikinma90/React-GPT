@@ -19,7 +19,6 @@ export const textToAudioUseCase = async(prompt: string, voice: string) => {
         const audioFile = await resp.blob();
         const audioUrl = URL.createObjectURL(audioFile);
 
-        console.log(audioUrl);
 
         return {
             ok: true,

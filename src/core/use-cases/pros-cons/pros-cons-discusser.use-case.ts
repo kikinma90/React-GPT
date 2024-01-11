@@ -1,4 +1,4 @@
-import type { ProsConsDiscusserResponse } from "../../interfaces";
+import type { ProsConsDiscusserResponse } from "../../../interfaces";
 
 
 
